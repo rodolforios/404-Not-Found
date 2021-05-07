@@ -1,0 +1,115 @@
+/* 404 not found */
+
+header {
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 24px;
+    top: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+/* Scarecrow */
+
+img {
+    height: 238px;
+    width: 286px;
+    left: 44px;
+    top: 109px;
+    border-radius: 0px;
+    position: absolute;
+    left: 11.73%;
+    right: 11.78%;
+    top: 11.49%;
+    bottom: 63.44%;
+}
+
+/* I have bad news for you */
+
+h1 {
+    position: absolute;
+    width: 350px;
+    height: 142px;
+    left: 24px;
+    top: 407px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+
+/* The page you are looking for might be removed or is temporarily unavailable */
+
+p {
+    position: absolute;
+    width: 328px;
+    height: 81px;
+    left: 23px;
+    top: 579px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+/* Rectangle 71 */
+
+.caixa {
+    position: relative;
+    width: 216px;
+    height: 68px;
+    left: 24px;
+    top: 726px;
+    /* Gray 1 */
+    background: #333333;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+    height: 21px;
+    width: 130px;
+    position: relative;
+    
+      
+   
+    
+    
+}
+/* created by username - devChallenges.io */
+footer{
+    
+
+
+position: absolute;
+width: 287px;
+height: 17px;
+left: 46px;
+top: 908px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #BDBDBD;
+
+}
