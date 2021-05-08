@@ -1,9 +1,12 @@
 body {
-    width: 99%;
-    height: auto;
+    width: auto;
+    height: fit-content;    
     background: #FFFFFF;
-    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+   
+    
+    
+   
+
 }
 
 /* 404 not found */
@@ -40,7 +43,7 @@ img {
 /* I have bad news for you */
 
 h1 {
-    font-family: Space Mono;
+    font-family: Space 'Mono';
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -50,6 +53,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 /* The page you are looking for might be removed or is temporarily unavailable */
@@ -58,13 +62,14 @@ p {
     width: 328px;
     height: 81px;
     margin: 50px auto;
-    font-family: Space Mono;
+    font-family: Space 'Mono';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
     letter-spacing: -0.035em;
     color: #4F4F4F;
+    text-align: center;
 }
 
 /* Rectangle 71 */
@@ -94,14 +99,232 @@ footer {
     font-weight: 500;
     font-size: 14px;
     color: #BDBDBD;
-    margin: 50px auto 0 auto
+    margin: 100px auto 0 auto;
+    padding-bottom: 0;
+}
+/*tablet pequeno*/
+@media (min-width: 768px){
+    
+    
+    header {
+        
+        font-size: 24px;
+    }
+    /* Scarecrow */
+    img {
+        max-width: 400px;       
+        width: 100%;
+        height: auto;
+        display: flex;
+        float: left;
+    }
+    /* I have bad news for you */
+    h1 {
+        font-family: Space 'Mono';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+        /* Gray 1 */
+        color:#333333;
+        margin-left: 50%;
+        margin-top: 5%;
+    }
+    /* The page you are looking for might be removed or is temporarily unavailable */
+    p {
+        font-family: Space 'Mono';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        /* Gray 2 */
+        color: #4F4F4F;
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+    /* Rectangle 71 */
+    .caixa {
+        width: 216px;
+        height: 68px;
+        display: flex;
+        margin-left: 59%;
+        margin-top: 10%;
+    }
+    a {
+        text-decoration: none;
+        color: #ffff;
+        font-family: Space 'Mono';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    /* created by username - devChallenges.io */
+    footer {
+        width: 287px;
+        height: 17px;
+        font-weight: 500;
+        font-size: 14px;
+        display:flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 30%;
+    }
+}
+
+/*ipad*/
+@media (min-width: 1024px){
+    body{
+        height: 740px;
+    }
+    header {
+        
+        font-size: 24px;
+    }
+    /* Scarecrow */
+    img {
+        max-width: 400px;       
+        width: 100%;
+        height: auto;
+        display: flex;
+        float: left;
+    }
+    /* I have bad news for you */
+    h1 {
+        font-family: Space 'Mono';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+        /* Gray 1 */
+        color: #333333;
+        margin-left: 50%;
+        margin-top: 5%;
+    }
+    /* The page you are looking for might be removed or is temporarily unavailable */
+    p {
+        font-family: Space 'Mono';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        /* Gray 2 */
+        color: #4F4F4F;
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+    /* Rectangle 71 */
+    .caixa {
+        width: 216px;
+        height: 68px;
+        display: flex;
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+    a {
+        text-decoration: none;
+        color: #ffff;
+        font-family: Space 'Mono';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    /* created by username - devChallenges.io */
+    footer {
+        width: 287px;
+        height: 17px;
+        font-weight: 500;
+        font-size: 14px;
+        margin-left: 50%;
+        margin: 14% auto 0 auto;
+    }
+}
+
+/*laptop*/
+@media (min-width: 1350px){
+    body{
+        height: 740px;
+    }
+    header {
+        
+        font-size: 24px;
+    }
+    /* Scarecrow */
+    img {
+               
+        max-width: 539px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        float: left;
+        margin-left: 5%;
+
+    }
+    /* I have bad news for you */
+    h1 {
+        font-family: Space 'Mono';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+        /* Gray 1 */
+        color: #333333;
+        margin-left: 50%;
+        margin-top: 5%;
+    }
+    /* The page you are looking for might be removed or is temporarily unavailable */
+    p {
+        font-family: Space 'Mono';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        /* Gray 2 */
+        color: #4F4F4F;
+        margin-left: 59%;
+        margin-top: 10%;
+    }
+    /* Rectangle 71 */
+    .caixa {
+        width: 216px;
+        height: 68px;
+        display: flex;
+        margin-left: 59%;
+        margin-top: 10%;
+    }
+    a {
+        text-decoration: none;
+        color: #ffff;
+        font-family: Space 'Mono';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    /* created by username - devChallenges.io */
+    footer {
+        width: 287px;
+        height: 17px;
+        font-weight: 500;
+        font-size: 14px;
+        margin-left: 50%;
+        margin: 8% auto 0 auto;
+    }
 }
 
 /* Desktop*/
 
 @media (min-width: 1680px) {
+
     header {
-        font-family: Inconsolata;
+        font-family: 'Inconsolata';
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
@@ -120,7 +343,7 @@ footer {
     }
     /* I have bad news for you */
     h1 {
-        font-family: Space Mono;
+        font-family: Space 'Mono';
         font-style: normal;
         font-weight: bold;
         font-size: 64px;
@@ -133,7 +356,7 @@ footer {
     }
     /* The page you are looking for might be removed or is temporarily unavailable */
     p {
-        font-family: Space Mono;
+        font-family: Space 'Mono';
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
@@ -168,8 +391,7 @@ footer {
         font-weight: 500;
         font-size: 14px;
         margin-left: 50%;
-        margin-top: 10%;
+        margin: 7% auto 0 auto;
     }
 }
 
-}
