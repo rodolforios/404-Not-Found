@@ -1,11 +1,16 @@
+body {
+    width: 99%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
 /* 404 not found */
 
 header {
-    position: absolute;
     width: 133px;
     height: 25px;
-    left: 24px;
-    top: 20px;
     font-family: 'Inconsolata', monospace;
     font-style: normal;
     font-weight: bold;
@@ -14,48 +19,45 @@ header {
     letter-spacing: -0.08em;
     text-transform: uppercase;
     color: #333333;
+    padding: 1%;
 }
 
 /* Scarecrow */
 
 img {
-    height: 238px;
-    width: 286px;
-    left: 44px;
-    top: 109px;
-    border-radius: 0px;
-    position: absolute;
-    left: 11.73%;
-    right: 11.78%;
-    top: 11.49%;
-    bottom: 63.44%;
+    /*
+    max-width:539px;
+    width: 100%;
+    height: auto;
+    */
+    width: 350px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* I have bad news for you */
 
 h1 {
-    position: absolute;
-    width: 350px;
-    height: 142px;
-    left: 24px;
-    top: 407px;
     font-family: Space Mono;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 71px;
     letter-spacing: -0.035em;
-    color: #333333;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* The page you are looking for might be removed or is temporarily unavailable */
 
 p {
-    position: absolute;
     width: 328px;
     height: 81px;
-    left: 23px;
-    top: 579px;
+    margin: 50px auto;
     font-family: Space Mono;
     font-style: normal;
     font-weight: normal;
@@ -68,48 +70,106 @@ p {
 /* Rectangle 71 */
 
 .caixa {
-    position: relative;
     width: 216px;
     height: 68px;
-    left: 24px;
-    top: 726px;
-    /* Gray 1 */
     background: #333333;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
 }
 
 a {
     text-decoration: none;
     color: #ffff;
-    height: 21px;
-    width: 130px;
-    position: relative;
-    
-      
-   
-    
-    
 }
+
 /* created by username - devChallenges.io */
-footer{
-    
 
+footer {
+    width: 287px;
+    height: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #BDBDBD;
+    margin: 50px auto 0 auto
+}
 
-position: absolute;
-width: 287px;
-height: 17px;
-left: 46px;
-top: 908px;
+/* Desktop*/
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-text-align: center;
-
-color: #BDBDBD;
+@media (min-width: 1680px) {
+    header {
+        font-family: Inconsolata;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+        color: #333333;
+    }
+    /* Scarecrow */
+    img {
+        max-width: 539px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        float: left;
+    }
+    /* I have bad news for you */
+    h1 {
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+        /* Gray 1 */
+        color: #333333;
+        margin-left: 50%;
+        margin-top: 5%;
+    }
+    /* The page you are looking for might be removed or is temporarily unavailable */
+    p {
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        /* Gray 2 */
+        color: #4F4F4F;
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+    /* Rectangle 71 */
+    .caixa {
+        width: 216px;
+        height: 68px;
+        display: flex;
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+    a {
+        text-decoration: none;
+        color: #ffff;
+        font-family: Space 'Mono';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    /* created by username - devChallenges.io */
+    footer {
+        width: 287px;
+        height: 17px;
+        font-weight: 500;
+        font-size: 14px;
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+}
 
 }
